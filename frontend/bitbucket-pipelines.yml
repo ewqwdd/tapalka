@@ -1,0 +1,36 @@
+# Node.js v18 Docker Image
+image: node:18
+
+clone:
+  depth: full
+
+pipelines:
+  branches:
+    # Production like Pipeline based on 'main' branch
+    main:
+    - step:
+        name: "Deployment to PRODUCTION environment"
+        caches:
+          - node
+        deployment: production
+        script:
+          - npm i -g @railway/cli
+          - RAILWAY_TOKEN=$RAILWAY_TOKEN_PROD railway up --service=$FRONTEND_RAILWAY_SERVICE_ID
+
+  custom:
+    'deploy':
+    - step:
+        name: "Init"
+        caches:
+          - node
+        script:
+          - echo "Init step"
+    - step:
+        name: "Deployment to STAGING environment"
+        trigger: manual
+        caches:
+          - node
+        deployment: staging
+        script:
+          - npm i -g @railway/cli
+          - RAILWAY_TOKEN=$RAILWAY_TOKEN_STAGING railway up --service=$FRONTEND_RAILWAY_SERVICE_ID

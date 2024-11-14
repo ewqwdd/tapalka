@@ -1,0 +1,56 @@
+{
+  "lang": "ENG",
+  "select-lang": "Select language",
+  "click-start": "Click here to start the game",
+  "congrats": "congratulations",
+  "continue": "Continue",
+  "game-id": "Game id",
+  "game-days": "Game days",
+  "earns": "Earns",
+  "my-games": "My Games",
+  "leaderboard": "Leaderboard",
+  "win-amount": "Win amount",
+  "Game": "Game",
+  "date": "Date",
+  "time": "Time",
+  "name": "Name",
+  "click-num": "Click num",
+  "room-size": "Room size",
+  "referral-prog": "Referral program",
+  "referral-desc": "Each referral boosts the player’s earnings, providing an effective way to gain ",
+  "copy-ref": "Copy referral link",
+  "copy-success": "Coppied to clipboard",
+  "no-referrals": "You don’t have any referrals yet",
+  "your-bro": "Your bro",
+  "how-it-works": "How it works",
+  "error": "Something went wrong. Try again later",
+  "play": "Play",
+  "demo": "Demo",
+  "how-it-works-page": {
+    "title-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "title-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "title-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "desc-1": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "desc-2": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "desc-3": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  "tasks": {
+    "heading": "Complete tasks & Get rewards",
+    "description": "Each referral boosts the player’s earnings, providing an effective way to gain ",
+    "daily-task": "Daily task",
+    "daily": "Daily task",
+    "other": "Other tasks",
+    "reward-desc": "За приведенного друга или какое-то другое задание "
+  },
+  "start-page": {
+    "hello": "Hi, my name is Wody!",
+    "hello-desc": "Wooy invites you on a journey along the golden paths! Pass the tests and collect all the treasures on your way!"
+  },
+  "demo-page": {
+    "well-played": "You are doing well, wanna try the real world game?"
+  },
+  "leaver-demo": "Leave Demo",
+  "page-develop": "Page is under development",
+  "on-fire": "You are on fire!",
+  "winstreak": "games in a row!"
+}

@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+# Redis
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+# Postgres
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: woody
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Persist data even if the container is stopped
+
+volumes:
+  pgdata: 
+
+
+# App
